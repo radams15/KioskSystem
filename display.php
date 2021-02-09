@@ -17,7 +17,7 @@
 				
 		<link rel="stylesheet" href="css/display.css">
 		
-		<meta http-equiv="refresh" content="2; /display.php">
+		<meta http-equiv="refresh" content="2;/display.php">
 		
 	</head>
 	

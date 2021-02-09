@@ -1,0 +1,29 @@
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.fullTable{
+	width: 100%;
+	height: 100%;
+}
+
+.enabled{
+	background-color: green;
+}
+
+.disabled{
+	background-color: red;
+}
+
+
+.name{
+	width: 20%;
+	min-width: 200px;
+}
+
+.state{
+	
+}

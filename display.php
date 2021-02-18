@@ -17,7 +17,7 @@
 				
 		<link rel="stylesheet" href="css/display.css">
 		
-		<meta http-equiv="refresh" content="2;/display.php">
+		<meta http-equiv="refresh" content="2;">
 		
 	</head>
 	
@@ -28,9 +28,8 @@
 		<?php
 			for($i=1 ; $i<=$numKiosks ; $i++){
 				echo "
-				<tr>
+				<tr class='tableRow'>
 					<td class='name'><b>Kiosk $i</b></td>
-					<td>
 				";
 				
 				echo enabled($i)?  "<td class='state enabled'>Enabled</td>" : "<td class='state disabled'>Disabled</td>";
@@ -40,6 +39,7 @@
 		?>
 		
 		</table>
+		
 		
 	</body>
 

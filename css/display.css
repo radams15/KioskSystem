@@ -8,22 +8,29 @@ html, body {
 .fullTable{
 	width: 100%;
 	height: 100%;
+	border-collapse:collapse
+}
+
+.tableRow{
+	border: 1px solid black;
 }
 
 .enabled{
-	background-color: green;
+	background-color: #B5DB7F;
 }
 
 .disabled{
-	background-color: red;
+	background-color: #D66B67;
 }
 
-
 .name{
+	text-align: center;
 	width: 20%;
 	min-width: 200px;
 }
 
 .state{
-	
+	text-align: center;
+	width: 80%;
+	min-height: 80px;
 }

@@ -16,7 +16,7 @@ function createFile($name){
 function enable($num){
 	global $toggleDir;
 	$name = "$toggleDir/$num";
-		
+			
 	if(file_exists($name)){
 		return;
 	}

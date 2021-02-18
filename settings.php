@@ -1,7 +1,10 @@
 <?php
 
-$numKiosks = 5;
+$numKiosksFile = "settings/numKiosks";
+$toggleDirFile = "settings/toggleDir";
 
-$toggleDir = "toggles";
+$numKiosks = intval(file_get_contents($numKiosksFile));
+$toggleDir = trim(file_get_contents($toggleDirFile));
 
 ?>
+

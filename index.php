@@ -23,5 +23,12 @@
 			?>
 		</div>
 		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br>
+		
+		<div class="pagebreak"></div> 
+		
+		<a href="/change_settings.php">Admin</a>
+		<p>(Don't touch if you don't know what you're doing!)</p>
 	</body>
 </html>
